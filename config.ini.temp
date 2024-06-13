@@ -1,0 +1,13 @@
+[account]
+id = 元富帳號
+password = 元富密碼
+
+[parameters]
+symbol = 交易商品，ex：2330股票代碼
+strategy_amount = 交易總額，ex：1000000，則代表最多持有的股票成本
+init_price = 基準價格，ex：策略期初持有的成本價
+init_ratio = 目前策略持有部位比例，ex：80代表目前持有占總資金80%
+grid_gap = 網隔間距，ex：0.02代表每網格間距為2%
+grid_unit = 網隔每單位比例，ex：5代表每單位占總資金5%
+up_down_grid_gap_diff = 賣出網格間距/買進網格間距，ex：1.4，代表買進間隔為5%，賣出間隔為為7%
+
